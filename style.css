@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+.wrapper{
+    width: 1440px;
+    height: 724px;
+    background-color: #F7F1DF;
+    /* background-image: url(./img.png); */
+    position: relative;
+}
+    
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 136px;
+}
+#h1{
+    color: var(--c-6, #644B2C);
+/* font-family: DM Sans; */
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 100% */
+}
+.right > a{
+    color: var(--c-6, #644B2C);
+/* font-family: DM Sans; */
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 100% */
+}
+.right{
+    display: flex;
+    gap: 48px;
+}
+#h11{
+    color: var(--c-8, #DC2428);
+font-family: DM Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 62.4px */
+}
+#pp{
+    color: var(--c-19, #2E2E2E);
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 26px */
+}
+#bn{
+    display: inline-flex;
+padding: 17px 50px;
+justify-content: center;
+align-items: center;
+gap: 30px;
+border-radius: 5px;
+background: var(--c-8, #DC2428);
+display: inline-flex;
+padding: 17px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+background: var(--c-8, #DC2428);
+}
+.banner{
+    padding: 150px 139px;
+}
+img{
+    width: 617px;
+height: 480.265px;
+flex-shrink: 0;
+position: absolute;
+top: 129px;
+right: 102px;
+}
+#mm{
+    color: #FFF;
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 120% */
+text-transform: uppercase;
+}
+.vniz{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 132px;
+    align-items: center;
+width: 1162px;
+height: 206px;
+flex-shrink: 0;
+border-radius: 5px;
+background: var(--c-1, #FFF);
+/* background-color: #2E2E2E; */
+position: absolute;
+top: 613px;
+left: 139px;
+}
+#kk , #kl , #ko{
+    color: var(--c-20, #111);
+/* font-family: DM Sans; */
+font-size: 52px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 52px */
+}
+#hh , #hn, #ho{
+    color: var(--c-19, #2E2E2E);
+/* font-family: DM Sans; */
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 26px */
+}
